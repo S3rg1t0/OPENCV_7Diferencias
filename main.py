@@ -1,10 +1,11 @@
-from busquedaDiferencias import FindDifference
-
+from PySide6.QtWidgets import QApplication
+import sys
+from interfaz import App
 
 if __name__ == "__main__":
 
-    imagen1 = "imagenes/foto1.jpg"
-    imagen2 = "imagenes/foto2.jpg"
+    app = QApplication(sys.argv)
+    window = App()
+    window.show()
+    sys.exit(app.exec())
 
-    detector = FindDifference(imagen1=imagen1,
-                              imagen2=imagen2)
