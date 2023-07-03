@@ -14,6 +14,26 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">#frame QPushButton{
+padding: 10px;
+border-radius: 5px;
+background-color: rgba(33,43,51,100);
+font: 700 12pt &quot;Arial&quot;;
+}
+
+
+#frame QPushButton:hover
+{
+background-color: rgb(120,157,186);
+}
+
+#centralwidget {
+background-color: rgb(120,157,150);
+}
+
+</string>
+   </property>
    <layout class="QHBoxLayout" name="horizontalLayout">
     <property name="spacing">
      <number>0</number>

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'ui_interfaceofCBUV.ui'
+## Form generated from reading UI file 'ui_interfaceEMjsnr.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.5.1
 ##
@@ -26,6 +26,24 @@ class Ui_MainWindow(object):
         MainWindow.resize(800, 600)
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
+        self.centralwidget.setStyleSheet(u"#frame QPushButton{\n"
+"padding: 10px;\n"
+"border-radius: 5px;\n"
+"background-color: rgba(33,43,51,100);\n"
+"font: 700 12pt \"Arial\";\n"
+"}\n"
+"\n"
+"\n"
+"#frame QPushButton:hover\n"
+"{\n"
+"background-color: rgb(120,157,186);\n"
+"}\n"
+"\n"
+"#centralwidget {\n"
+"background-color: rgb(120,157,150);\n"
+"}\n"
+"\n"
+"")
         self.horizontalLayout = QHBoxLayout(self.centralwidget)
         self.horizontalLayout.setSpacing(0)
         self.horizontalLayout.setObjectName(u"horizontalLayout")
